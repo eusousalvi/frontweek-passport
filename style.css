@@ -38,6 +38,10 @@ body {
   visibility: hidden;
 }
 
+.logo {
+  width: 100%;
+}
+
 .form {
   display: flex;
   flex-direction: column;
