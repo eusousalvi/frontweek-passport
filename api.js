@@ -26,7 +26,7 @@ function downloadImage(element, filename) {
 
 formElement.addEventListener("submit", async (e) => {
   e.preventDefault();
-  const userData = await getDataFromGithub(e.target.login.value);
+  const userData = await getDataFromGithub(e.target.login.value.replace('@', ''));
   const { login, name, avatar_url } = userData;
   passportLogin.innerText = `@${login.toLowerCase()}`;
   passportName.innerHTML = name && name.split(' ').join('&nbsp;');
