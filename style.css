@@ -18,10 +18,13 @@ html {
 
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: var(--gradient);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow-x:hidden;
+  justify-content: space-between;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -248,7 +251,7 @@ body {
 .footer {
   color: #fff;
   font-size: 1.6rem;
-  position: absolute;
+  padding: 1rem;
   bottom: 1rem;
 }
 
