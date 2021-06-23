@@ -2,7 +2,6 @@
 
 <p align="center">
 <image src="og_image.svg"/></br>
-<label>Logo</label>
 </p>
 
 <p align="center">
