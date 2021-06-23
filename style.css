@@ -101,20 +101,47 @@ body {
   }
 }
 
+.passport__wrapper {
+  margin: 7rem 0;
+  box-shadow: 0 0 280px var(--purple-pink);
+  width: 100%;
+  animation: passportEntry 0.5s cubic-bezier(0.075, 0.82, 0.5, 1);
+  transition: 0.4s all;
+  display: none;
+}
+
+.passport--active {
+  display: flex;
+  cursor: pointer;
+}
+
 .passport {
   position: relative;
   overflow: hidden;
-  margin-top: 5rem;
-  width: 100%;
   height: 50rem;
-  box-shadow: 0 0 280px var(--purple-pink);
+  padding: 2rem;
+  width: 100%;
   background: var(--gradient-rotate);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
   border: 2px solid var(--purple-light);
   justify-content: space-between;
+  transition: 0.4s all;
+}
+
+.passport--active:hover {
+  box-shadow: 0 0 25px var(--purple-light);
+  transform: scale(1.1);
+}
+
+@keyframes passportEntry {
+  from {
+    transform: translateY(100px) scale(0.4);
+  }
+  to {
+    transform: initial;
+  }
 }
 
 .passport__header {
@@ -158,7 +185,8 @@ body {
 .image__avatar {
   width: 6rem;
   height: 6rem;
-  opacity: 0.2;
+  width: 100%;
+  height: 100%;
 }
 
 .content__pattern {
@@ -211,4 +239,16 @@ body {
 
 .social__twitter {
   font-size: 1.2rem;
+}
+
+.footer {
+  color: #fff;
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.footer a {
+  color: #9033fe;
+  font-weight: 500;
 }
