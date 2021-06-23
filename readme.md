@@ -1,8 +1,7 @@
 <h1>Título do Projeto</h1>
 
 <p align="center">
-<image src=".github/logo.jpg"/></br>
-<label>Logo</label>
+<image src="og_image.svg"/></br>
 </p>
 
 <p align="center">
@@ -16,15 +15,18 @@
 
 ## Apresentação do Projeto 🌟
 
+Gerador de Passaporte para a 8ª Edição da #FrontendWeek
+
 <p align="center">
-<image src=".github/image-example.png" />
+<image src="passport_eusousalvi.png" />
+  <image src="passport_Bluniz.png" />
 </p>
 
 ---
 
 ## Sobre 📝
 
-Gerador de passaporte para a FrontEnd Week 2021.
+Um simples gerador de passaporte feito para ajudar a divulgar o evento. Não temos ligação alguma com os organizadores, só bateu a louca mesmo.
 
 ## Tecnologias 🚀
 
@@ -39,9 +41,9 @@ Gerador de passaporte para a FrontEnd Week 2021.
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
 
-## Licença :scroll:
+## Licença :scroll: (Pode passar)
 
-> Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+> Esse projeto está sob a licença MIT.
 
 ---
 
