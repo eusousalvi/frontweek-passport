@@ -29,7 +29,7 @@ formElement.addEventListener("submit", async (e) => {
   const userData = await getDataFromGithub(e.target.login.value);
   const { login, name, avatar_url } = userData;
   passportLogin.innerText = `@${login.toLowerCase()}`;
-  passportName.innerHTML = name && name.split(' ').join('&nbsp');
+  passportName.innerHTML = name && name.split(' ').join('&nbsp;');
   avatar.src = avatar_url;
   passport.addEventListener('click', () => {
     downloadImage(passport, `passport_${login}`)
