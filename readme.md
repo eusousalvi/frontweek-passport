@@ -41,9 +41,9 @@ Um simples gerador de passaporte feito para ajudar a divulgar o evento. Não tem
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
 
-## Licença :scroll:
+## Licença :scroll: (Pode passar)
 
-> Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+> Esse projeto está sob a licença MIT.
 
 ---
 
