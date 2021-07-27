@@ -23,7 +23,7 @@ Gerador de Passaporte para a 8ª Edição da #FrontendWeek
 
 ## Sobre 📝
 
-Um simples gerador de passaporte feito para ajudar a divulgar o evento. Não temos ligação alguma com os organizadores, só bateu a louca mesmo.
+Um simples gerador de passaporte feito em algumas horas para ajudar a divulgar o evento. Não temos ligação alguma com os organizadores, só bateu a louca mesmo.
 
 ## Tecnologias 🚀
 
