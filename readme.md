@@ -1,7 +1,7 @@
 <h1>Título do Projeto</h1>
 
 <p align="center">
-<image src="og_image.svg"/></br>
+<image src="./public/assets/og_image.svg"/></br>
 </p>
 
 <p align="center">
@@ -15,8 +15,8 @@
 Gerador de Passaporte para a 8ª Edição da #FrontendWeek
 
 <p align="center">
-<image src="passport_eusousalvi.png" />
-  <image src="passport_Bluniz.png" />
+<image src="./public/passport_eusousalvi.png" />
+  <image src="./public/passport_Bluniz.png" />
 </p>
 
 ---
