@@ -36,8 +36,8 @@ $formElement.addEventListener("submit", async (e) => {
     e.target.login.value.replace("@", "")
   );
   const { login, name, avatar_url } = userData;
-  $passportLogin.innerText = `@${login.toLowerCase()}`;
-  $passportName.innerHTML = name && name.split(" ").join("&nbsp;");
+  $passportLogin.textContent = `@${login.toLowerCase()}`;
+  $passportName.textContent = name;
   $avatar.src = avatar_url;
   $passport.addEventListener("click", () => {
     downloadImage($passport, `passport_${login}`);
