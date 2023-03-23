@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<a href="https://frontweek-passport.vercel.app/" target="_blank" >Acesse Agora</a>
+<a href="https://frontendweek-passport.vercel.app/" target="_blank" >Acesse Agora</a>
 </p>
 
 <br/>
